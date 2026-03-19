@@ -1,9 +1,10 @@
 # Tepig
 Trabajo grupal: Programacion II
 Desarrollo colaborativo enfocado en soluciones eficientes, claras y bien estructuradas.
+Integrantes: Camila de la Cruz, NIcolas Montauti, Sebastian Radici y Tomas jarolaski.
+
 ![unnamed](https://github.com/user-attachments/assets/0d8f7959-1c88-4cb1-89e1-b2f7c3815ed3)
 
-Integrantes: Camila de la Cruz, NIcolas Montauti, Sebastian Radici y Tomas jarolaski.
 
 # Tomás Jarolaski 👨🏻‍💻
 Foto:![6215babd-f86e-49f6-9cf9-85c640939916](https://github.com/user-attachments/assets/f989ae9f-048c-437b-a84b-7bcfd2b09530)
@@ -42,4 +43,6 @@ Dentro del equipo, participa en el desarrollo del proyecto, aportando una visió
 Se destaca por su responsabilidad, constancia y compromiso con el aprendizaje continuo. 
 Tiene un enfoque orientado a la eficiencia y a la escritura de código claro y mantenible, buscando optimizar procesos y aplicar buenas prácticas en el desarrollo de software.
 
+# Registro de actividades
 
+Clase 19/03: Realizamos la actividad 1 con un diagrama UML y un txt del debate de las estrategias de implementacion. 
