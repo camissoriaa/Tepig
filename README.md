@@ -5,6 +5,7 @@ Desarrollo colaborativo enfocado en soluciones eficientes, claras y bien estruct
 Integrantes: Camila de la Cruz, NIcolas Montauti, Sebastian Radici y Tomas jarolaski.
 
 # Tomás Jarolaski 👨🏻‍💻
+Foto: ![6215babd-f86e-49f6-9cf9-85c640939916](https://github.com/user-attachments/assets/82a4949e-7b32-4404-932f-1d7ae3f2820e)
 
 Técnico en Desarrollo de Software por la Universidad UADE.
 Dentro del equipo, se encarga del diseño y desarrollo de la lógica del sistema.
@@ -18,7 +19,9 @@ Dentro del equipo, se encarga de la implementación e integración de los distin
 
 Se destaca por su enfoque práctico, capacidad de resolución de problemas y adaptación a distintos entornos de desarrollo. Tiene una orientación hacia la eficiencia y la estabilidad del sistema, aplicando buenas prácticas para lograr soluciones confiables y bien estructuradas.
 
-# Sebastian Radici 👨🏽‍💻
+# Sebastian Radici
+Foto: [e4265400-7749-4a1d-bb9e-3a1c64d6b2cb](https://github.com/user-attachments/assets/61793cd6-3302-41c4-89da-cd03e2ea5eef)
+
 Estudiante de Ingeniería Informática en UADE y actualmente parte de Trenes Argentinos.
 Cuenta con formación continua en tecnología, incluyendo certificaciones y prácticas en Red Hat Academy, Cisco Networking y desarrollo en Python, además de experiencia en herramientas como Git y SQL.
 
