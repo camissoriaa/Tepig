@@ -12,7 +12,7 @@ Dentro del equipo, se encarga del diseño y desarrollo de la lógica del sistema
 Se caracteriza por ser aplicado y metódico, con un fuerte enfoque en la programación eficiente. 
 Su objetivo es optimizar recursos y maximizar el rendimiento del código, asegurando soluciones claras, funcionales y bien estructuradas.
 
-# Nicolas momtauti 👨🏻‍💻
+# Nicolas Montauti 👨🏻‍💻
 Estudiante de Ingeniería Informática en UADE, con conocimientos en SQL, Python, Java y entornos Red Hat.
 Dentro del equipo, se encarga de la implementación e integración de los distintos componentes del sistema, asegurando su correcto funcionamiento.
 
