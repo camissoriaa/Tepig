@@ -20,7 +20,7 @@ Dentro del equipo, se encarga de la implementación e integración de los distin
 Se destaca por su enfoque práctico, capacidad de resolución de problemas y adaptación a distintos entornos de desarrollo. Tiene una orientación hacia la eficiencia y la estabilidad del sistema, aplicando buenas prácticas para lograr soluciones confiables y bien estructuradas.
 
 # Sebastian Radici
-Foto: [e4265400-7749-4a1d-bb9e-3a1c64d6b2cb](https://github.com/user-attachments/assets/61793cd6-3302-41c4-89da-cd03e2ea5eef) 
+Foto: ![Uploading 432a0278-3586-4e06-83d5-a6ca7c64d50a.jpg…]() 
 
 Estudiante de Ingeniería Informática en UADE y actualmente parte de Trenes Argentinos.
 Cuenta con formación continua en tecnología, incluyendo certificaciones y prácticas en Red Hat Academy, Cisco Networking y desarrollo en Python, además de experiencia en herramientas como Git y SQL.
