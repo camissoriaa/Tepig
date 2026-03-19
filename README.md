@@ -1,6 +1,7 @@
 # Tepig
 Trabajo grupal: Programacion II
 Desarrollo colaborativo enfocado en soluciones eficientes, claras y bien estructuradas.
+![unnamed](https://github.com/user-attachments/assets/0d8f7959-1c88-4cb1-89e1-b2f7c3815ed3)
 
 Integrantes: Camila de la Cruz, NIcolas Montauti, Sebastian Radici y Tomas jarolaski.
 
