@@ -1,4 +1,4 @@
-![432a0278-3586-4e06-83d5-a6ca7c64d50a](https://github.com/user-attachments/assets/5c4f2496-d1e0-4154-9af1-003f3dca6ff9)# Tepig
+# Tepig
 Trabajo grupal: Programacion II
 Desarrollo colaborativo enfocado en soluciones eficientes, claras y bien estructuradas.💡
 
