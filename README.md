@@ -45,12 +45,13 @@ Tiene un enfoque orientado a la eficiencia y a la escritura de código claro y m
 
 # Registro de actividades
 
-Clase 19/03: Realizamos la actividad 1 con un diagrama UML y un txt del debate de las estrategias de implementacion. 
+Clase 19/03: 
 
-Para la actividad 1: Hicimos un diagrama UML de una pila (TDA) separando la definición de sus operaciones de su implementación concreta.
-
+Para la actividad 1: 
+Hicimos un diagrama UML de una pila (TDA) separando la definición de sus operaciones de su implementación concreta.
 Por un lado, definimos la interfaz IPila, que representa el comportamiento de la pila. Ahí se especifican las operaciones básicas que cualquier pila debe tener: apilar un elemento, desapilar, consultar el tope, verificar si está vacía e inicializar la estructura. Esto define qué hace la pila, sin importar cómo esté implementada.
 
 Por otro lado, creamos la clase PilaEstatica, que es una implementación concreta de esa interfaz. En este caso, la pila se implementa usando un arreglo de enteros (int[]) para almacenar los datos y una variable (cantidad) que lleva el control de cuántos elementos hay en la pila. Esta clase implementa todos los métodos definidos en la interfaz, es decir, define cómo se hacen esas operaciones.
 
 Para la actividad 2: 
+En esta actividad analizamos y comparamos tres estrategias distintas para implementar una pila usando arreglos. Evaluamos cada una teniendo en cuenta su simplicidad, eficiencia en tiempo y uso de memoria, identificando sus ventajas y desventajas para entender cuál resulta más conveniente.
