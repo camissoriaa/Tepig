@@ -58,4 +58,5 @@ En esta actividad analizamos y comparamos tres estrategias distintas para implem
 
 Clase 26/03
 
-En el dia de la fecha trabajamos con 
+En el dia de la fecha trabajamos con el TDA de pila integrado directamente en el codigo, se plantean situaciones reales para la analizar y volcarlas en codigo, utilizando herramientas explicadas en la primera parte de la clase, las cuales introducimos la mejor estraegia para la resolucion de dicho ejercicio.
+Se nos plantean diferentes bloques de ejercicios pero comenzamos esta actividad con el bloque numero 1.
