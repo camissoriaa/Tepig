@@ -1,4 +1,4 @@
-# Actividad 2: "Guerra de Estrategias"
+# Actividad 1: "Guerra de Estrategias"
 
 ## Análisis de Estrategias de Implementación
 
