@@ -1,9 +1,0 @@
-Actividad 2: "Guerra de estrategias" 
- 
-Análisis de Estrategias de Implementación
-
-Estrategia 1 (Arreglo + Variable Externa): Destaca por su simplicidad, eficiencia y óptimo uso de la memoria. Su única desventaja técnica es la dependencia de una variable de control externa para gestionar el tope de la pila.
-Estrategia 2 (Tope en posición 0): Aunque elimina la necesidad de una variable externa, resulta altamente ineficiente en términos de tiempo y recursos, ya que requiere desplazar todos los elementos del arreglo hacia la derecha en cada operación de apilado.
-Estrategia 3 (Cantidad en posición 0): No depende de variables externas y mantiene una eficiencia similar a la Estrategia 1. Sin embargo, reduce la capacidad útil del TDA, ya que debe reservar obligatoriamente la primera posición del arreglo para almacenar la cantidad de elementos.
-
-Tras analizar las tres opciones, determinamos que la Estrategia 1 es la más equilibrada en términos de simplicidad, gestión de memoria y velocidad. A pesar de requerir una variable de control, ofrece el mejor tiempo de respuesta ($O(1)$) y aprovecha al máximo la capacidad de almacenamiento disponible.
