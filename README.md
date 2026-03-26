@@ -55,3 +55,7 @@ Por otro lado, creamos la clase PilaEstatica, que es una implementación concret
 
 Para la actividad 2: 
 En esta actividad analizamos y comparamos tres estrategias distintas para implementar una pila usando arreglos. Evaluamos cada una teniendo en cuenta su simplicidad, eficiencia en tiempo y uso de memoria, identificando sus ventajas y desventajas para entender cuál resulta más conveniente.
+
+Clase 26/03
+
+En el dia de la fecha trabajamos con 
