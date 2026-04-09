@@ -26,15 +26,6 @@ Dentro del equipo, se encarga de la implementación e integración de los distin
 
 Se destaca por su enfoque práctico, capacidad de resolución de problemas y adaptación a distintos entornos de desarrollo. Tiene una orientación hacia la eficiencia y la estabilidad del sistema, aplicando buenas prácticas para lograr soluciones confiables y bien estructuradas.
 
-# Sebastian Radici
-![432a0278-3586-4e06-83d5-a6ca7c64d50a](https://github.com/user-attachments/assets/d0c2484d-3f2e-42a1-8339-26c1e78a8667)
-
-Estudiante de Ingeniería Informática en UADE y actualmente parte de Trenes Argentinos.
-Cuenta con formación continua en tecnología, incluyendo certificaciones y prácticas en Red Hat Academy, Cisco Networking y desarrollo en Python, además de experiencia en herramientas como Git y SQL.
-
-Se destaca por su disciplina, capacidad de trabajo en equipo y una fuerte motivación por crecer dentro del ámbito IT. 
-Tiene especial interés en el desarrollo de software y la inteligencia artificial, buscando aplicar sus conocimientos en proyectos reales y seguir evolucionando como profesional.
-
 # Camila de la Cruz 👩🏻‍💻
 
 Estudiante de Ingeniería Informática en UADE, con conocimientos en SQL, Python, Java y entornos Red Hat.
@@ -58,5 +49,4 @@ En esta actividad analizamos y comparamos tres estrategias distintas para implem
 
 Clase 26/03
 
-En el dia de la fecha trabajamos con el TDA de pila integrado directamente en el codigo, se plantean situaciones reales para la analizar y volcarlas en codigo, utilizando herramientas explicadas en la primera parte de la clase, las cuales introducimos la mejor estraegia para la resolucion de dicho ejercicio.
-Se nos plantean diferentes bloques de ejercicios pero comenzamos esta actividad con el bloque numero 1.
+En el dia de la fecha trabajamos con el TDA de pila integrado directamente en el codigo, se plantean situaciones reales para la analizar y volcarlas en codigo, utilizando herramientas explicadas en la primera parte de la clase, las cuales introducimos la mejor estraegia para la resolucion de dicho ejercicio. Se nos plantean diferentes bloques de ejercicios pero comenzamos esta actividad con el bloque numero 1.
