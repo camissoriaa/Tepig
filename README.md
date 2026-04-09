@@ -48,5 +48,4 @@ Para la actividad 2:
 En esta actividad analizamos y comparamos tres estrategias distintas para implementar una pila usando arreglos. Evaluamos cada una teniendo en cuenta su simplicidad, eficiencia en tiempo y uso de memoria, identificando sus ventajas y desventajas para entender cuál resulta más conveniente.
 
 Clase 26/03
-
-En el dia de la fecha trabajamos con el TDA de pila integrado directamente en el codigo, se plantean situaciones reales para la analizar y volcarlas en codigo, utilizando herramientas explicadas en la primera parte de la clase, las cuales introducimos la mejor estraegia para la resolucion de dicho ejercicio. Se nos plantean diferentes bloques de ejercicios pero comenzamos esta actividad con el bloque numero 1.
+En el día de la fecha trabajamos con el TDA de Pila integrado directamente en el código. Se plantearon situaciones reales para analizar y volcar en código, utilizando herramientas explicadas en la primera parte de la clase, en la cual se introdujo la mejor estrategia para la resolución de dichos ejercicios. Se nos plantearon diferentes bloques de ejercicios, pero comenzamos esta actividad con el bloque número 1.
