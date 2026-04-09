@@ -2,7 +2,7 @@
 
 Desarrollo colaborativo enfocado en soluciones eficientes, claras y bien estructuradas.
 
-Integrantes: Camila de la Cruz, NIcolas Montauti, Sebastian Radici, Tomas jarolaski y Santiago Céspedes.
+Integrantes: Camila de la Cruz, NIcolas Montauti, Tomas jarolaski y Santiago Céspedes.
 
 ![unnamed](https://github.com/user-attachments/assets/0d8f7959-1c88-4cb1-89e1-b2f7c3815ed3)
 
