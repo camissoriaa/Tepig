@@ -36,16 +36,41 @@ Tiene un enfoque orientado a la eficiencia y a la escritura de código claro y m
 
 # Registro de actividades
 
-Clase 19/03: 
+## 📅 Clase 19/03
 
-Para la actividad 1: 
-Hicimos un diagrama UML de una pila (TDA) separando la definición de sus operaciones de su implementación concreta.
-Por un lado, definimos la interfaz IPila, que representa el comportamiento de la pila. Ahí se especifican las operaciones básicas que cualquier pila debe tener: apilar un elemento, desapilar, consultar el tope, verificar si está vacía e inicializar la estructura. Esto define qué hace la pila, sin importar cómo esté implementada.
+### Actividad 1: Diagrama UML de una Pila (TDA)
 
-Por otro lado, creamos la clase PilaEstatica, que es una implementación concreta de esa interfaz. En este caso, la pila se implementa usando un arreglo de enteros (int[]) para almacenar los datos y una variable (cantidad) que lleva el control de cuántos elementos hay en la pila. Esta clase implementa todos los métodos definidos en la interfaz, es decir, define cómo se hacen esas operaciones.
+Realizamos un diagrama UML de una Pila separando la **definición** de sus operaciones de su **implementación concreta**.
 
-Para la actividad 2: 
-En esta actividad analizamos y comparamos tres estrategias distintas para implementar una pila usando arreglos. Evaluamos cada una teniendo en cuenta su simplicidad, eficiencia en tiempo y uso de memoria, identificando sus ventajas y desventajas para entender cuál resulta más conveniente.
+- **`IPila` (Interfaz):** Define el *comportamiento* de la pila. Especifica las operaciones básicas que cualquier pila debe tener:
+  - Apilar un elemento
+  - Desapilar
+  - Consultar el tope
+  - Verificar si está vacía
+  - Inicializar la estructura
 
-Clase 26/03
+- **`PilaEstatica` (Clase concreta):** Implementa la interfaz usando:
+  - Un arreglo de enteros (`int[]`) para almacenar los datos
+  - Una variable `cantidad` para controlar cuántos elementos hay en la pila
+
+> 💡 La interfaz define **qué hace** la pila. La clase concreta define **cómo lo hace**.
+
+---
+
+### Actividad 2: Comparación de Estrategias de Implementación
+
+Analizamos y comparamos **tres estrategias distintas** para implementar una pila usando arreglos, evaluando cada una teniendo en cuenta su simplicidad, eficiencia en tiempo y uso de memoria, identificando sus ventajas y desventajas para entender cuál resulta más conveniente.
+
+| Criterio | Descripción |
+|---|---|
+| Simplicidad | Qué tan fácil es de entender y codificar |
+| Eficiencia temporal | Costo en tiempo de cada operación |
+| Uso de memoria | Cómo aprovecha el espacio disponible |
+
+---
+
+## 📅 Clase 26/03
+
+### Actividad: Bloque 1 — Ejercicios con TDA Pila
+
 En el día de la fecha trabajamos con el TDA de Pila integrado directamente en el código. Se plantearon situaciones reales para analizar y volcar en código, utilizando herramientas explicadas en la primera parte de la clase, en la cual se introdujo la mejor estrategia para la resolución de dichos ejercicios. Se nos plantearon diferentes bloques de ejercicios, pero comenzamos esta actividad con el bloque número 1.
