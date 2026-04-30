@@ -1,0 +1,120 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
+import Interface.ConjuntoTDA;
+import Implementacion.ConjuntoDinamico;
+import Implementacion.ConjuntoEstatico;
+
+public class MainEjercicios {
+
+    public static void main(String[] args) {
+
+        //=== 1. PADRÓN ELECTORAL ===//
+        ConjuntoTDA padronElectoral = new ConjuntoDinamico();
+        padronElectoral.InicializarConjunto();
+
+        int dniAlumno = 40123456;
+
+        // Primer intento de votar
+        if (!padronElectoral.Pertenece(dniAlumno)) {
+            padronElectoral.Agregar(dniAlumno);
+            System.out.println("Voto registrado con éxito para el DNI: " + dniAlumno);
+        } else {
+            System.out.println("¡Alerta! El DNI " + dniAlumno + " ya votó.");
+        }
+
+        // Segundo intento del vivo para votar de nuevo
+        if (!padronElectoral.Pertenece(dniAlumno)) {
+            padronElectoral.Agregar(dniAlumno);
+        } else {
+            System.out.println("¡Alerta! El DNI " + dniAlumno + " ya votó. Intento de fraude bloqueado.");
+        }
+
+       //=== 2. INVITADOS A LA FIESTA ===//
+        ConjuntoTDA fiesta = new ConjuntoEstatico();
+        fiesta.InicializarConjunto();
+
+        int idInvitado = 15;
+
+        fiesta.Agregar(idInvitado);
+        System.out.println("Invitado " + idInvitado + " agregado.");
+
+        // Intentamos agregarlo de nuevo
+        fiesta.Agregar(idInvitado);
+        System.out.println("Intento de agregar al invitado " + idInvitado + " nuevamente finalizado.");
+
+        int cantidadEnFiesta = 0;
+        while (!fiesta.ConjuntoVacio()) {
+            int x = fiesta.Elegir();
+            fiesta.Sacar(x);
+            cantidadEnFiesta++;
+        }
+        System.out.println("Total de invitados reales en la fiesta: " + cantidadEnFiesta);
+
+
+        //=== 3. FILTRO DE SPAM (BLACKLIST) ===//
+        ConjuntoTDA blacklist = new ConjuntoDinamico();
+        blacklist.InicializarConjunto();
+        blacklist.Agregar(101); // 101 representa "Crypto"
+        blacklist.Agregar(102); // 102 representa "Ganá"
+        blacklist.Agregar(103); // 103 representa "Premio"
+
+        int[] mailEntrante = {55, 12, 89, 101, 44};
+        boolean esSpam = false;
+
+        for (int i = 0; i < mailEntrante.length; i++) {
+            if (blacklist.Pertenece(mailEntrante[i])) {
+                esSpam = true;
+                break;
+            }
+        }
+
+        if (esSpam) {
+            System.out.println("El correo fue enviado a SPAM (Contiene palabras prohibidas).");
+        } else {
+            System.out.println("El correo es seguro (Bandeja de entrada).");
+        }
+
+
+        //=== 4 y 5. TAGS Y GESTIÓN DE LEGAJOS ===//
+        ConjuntoTDA legajos = new ConjuntoEstatico();
+        legajos.InicializarConjunto();
+
+        int legajoAlumno = 112233;
+
+     //Alumno se inscribe en Ingeniería//
+        legajos.Agregar(legajoAlumno);
+
+        System.out.println("Alumno se inscribe en Sistemas con el mismo legajo...");
+        legajos.Agregar(legajoAlumno);
+
+        int totalLegajos = 0;
+        while (!legajos.ConjuntoVacio()) {
+            int x = legajos.Elegir();
+            legajos.Sacar(x);
+            totalLegajos++;
+        }
+        System.out.println("Total de legajos registrados en el sistema: " + totalLegajos);
+
+
+       //=== 6. OPERACIÓN ELEGIR VS SACAR ===//
+        ConjuntoTDA conjuntoPrueba = new ConjuntoDinamico();
+        conjuntoPrueba.InicializarConjunto();
+
+        conjuntoPrueba.Agregar(10);
+        conjuntoPrueba.Agregar(20);
+        conjuntoPrueba.Agregar(30);
+
+        int primerLlamado = conjuntoPrueba.Elegir();
+        int segundoLlamado = conjuntoPrueba.Elegir();
+
+        System.out.println("Primer elemento elegido: " + primerLlamado);
+        System.out.println("Segundo elemento elegido: " + segundoLlamado);
+
+        if (primerLlamado == segundoLlamado) {
+            System.out.println("Conclusión: Elegir() devuelve el mismo elemento porque no se llamó a Sacar().");
+        }
+    }
+}
+
