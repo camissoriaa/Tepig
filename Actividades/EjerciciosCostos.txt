@@ -42,20 +42,14 @@ Para sacar el resultado final, en complejidad, las constantes (el 2 y el 1) se d
 
 Ejercicio 5: Como hay un bucle dentro del otro, hay que multiplicar. Por cada fila que recorre ,  tiene que revisar todas sus columnas . Así que apliqué la regla del producto:
 O(n) * O(n) = O(n^2).
-
 Y para analizar el peor caso, el programa empieza a buscar desde arriba a la izquierda y el único número par esté escondido justo en la última celda de abajo a la derecha o que no haya ningún número par en toda la matriz
-
 En cualquiera de esos dos casos, el algoritmo revisa absolutamente todas las posiciones. Si la matriz es chica (10 x 10), revisa 100 lugares. Pero si es grande (1000 x 1000), se va a 1.000.000 de operaciones. Al ver que los pasos se disparan al cuadrado de esa forma, comprobé que el costo final del peor caso es O(n^2).
 
 Ejercicio 6:  Primero está el Bloque A. Es un for simple que pasa por el arreglo una sola vez para imprimir los datos. Como hace n iteraciones (una por cada dato),  el costo es lineal, o sea, O(n).
-
 Después pasé al Bloque B y vi que tenía bucles anidados. Era un for dentro de otro for, los dos yendo hasta n. Si por cada vuelta que da el ciclo de afuera, el ciclo de dentro da n vueltas más, terminás haciendo 'n' por 'n' operaciones. Entonces, es cuadrático total, O(n^2).
-
 Para sacar la complejidad total del método, hay que juntar las dos partes usando la regla de la suma. Me quedó esta cuenta:
 T(n) = O(n) + O(n^2)
-
 Si n vale 1.000, la parte lineal te suma 1.000 operaciones, pero la parte al cuadrado aporta 1.000.000. Y si n llega a ser un millón de datos, la parte al cuadrado se va a un billón. Es tan inmensa la diferencia que la parte lineal (O(n)) no interfiere en nada.
-
 Así que directamente apliqué la regla, desprecie la parte lineal porque pasa a ser irrelevante frente a la parte cuadrática, y concluímos que el costo final de todo el algoritmo es O(n^2).
 
 Ejercicio 7: La búsqueda binaria pertenece a o(log n) porque en cada paso divide el conjunto de datos por la mitad. Luego de k divisiones quedan n/2^k elementos, y Cuando el tamaño llega a 1 termina
