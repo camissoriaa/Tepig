@@ -1,0 +1,98 @@
+## Análisis de Complejidad Algorítmica
+
+Ejercicio 1: El algoritmo recorre el array buscando un 5 o un 6 en posiciones anteriores. 
+Si encuentra alguno, finaliza inmediatamente mediante return.
+La complejidad temporal debe analizarse en el peor caso, es decir, cuando el algoritmo realiza la mayor cantidad de operaciones. Esto ocurre cuando nunca encuentra ni 5 ni 6, por lo que recorre completamente el arreglo.
+El ciclo externo: for(int i = 0; i < array.length; i++) → Recorre el arreglo n veces, aportando una complejidad: O (n).
+El ciclo interno: for(int j = 0; j < i; j++) depende del valor de i.
+Cuando i = 0, realiza 0 iteraciones.
+Cuando i = 1, realiza 1.
+Cuando i = 2, realiza 2.
+Cuando i = n-1, realiza n-1.
+Por lo tanto, la cantidad total de iteraciones es:
+0+1+2+3+...+(n−1)
+Esta suma equivale a: 2/n(n−1)
+Al simplificar en notación Big-O, el término dominante es: O(n^2)
+Por lo tanto, la complejidad temporal en el peor caso es:  O(n^2)
+
+Ejercicio 2: Tenemos que analizar la operación de acolar (x) en tres implementaciones distintas de cola. 
+ColaPU (Estática). 
+PU = “Primera Ubicación”. El nuevo elemento entra siempre en la posición 0 del arreglo. La complejidad es O(n) porque el nuevo elemento debe insertarse en la posición 0 del arreglo y para eso es necesario desplazar todos los elementos existentes una posición hacia la derecha 
+
+ColaPI (Estática):
+La operación Acolar(x) tiene complejidad: O(1) porque el elemento se agrega directamente al final lógico del arreglo sin mover elementos.
+
+ColaLD (Dinámica):
+La operación Acolar(x) tiene complejidad: O(1) porque la implementación usa nodos enlazados con punteros al primero y último, permitiendo insertar directamente al final mediante actualización de referencias.
+
+Ejercicio 3: El método recibe una cola de n elementos y la recorre completamente para identificar cuáles son mayores que un determinado límite. Durante el proceso, los elementos válidos se guardan en una nueva cola y además se utiliza una estructura auxiliar tmp para poder restaurar posteriormente la cola original.
+La complejidad temporal es: O (n)
+porque cada elemento es procesado una cantidad constante de veces. Las operaciones básicas utilizadas (Acolar y Desacolar) tienen costo O(1) y se ejecutan para cada uno de los n elementos, tanto durante el filtrado como durante la restauración de la cola original.
+
+La complejidad espacial es: O (n) porque la estructura auxiliar tmp puede llegar a almacenar hasta n elementos en el peor caso mientras se reconstruye la cola original.
+Por lo tanto:
+Complejidad temporal: O(n)
+Complejidad espacial auxiliar: O(n)
+
+Ejercicio 4: Primero saca el tamaño del arreglo e inicia por consola. Como eso lo hace una sola vez de corrido, no importa si el arreglo tiene 10 datos o un millón, el tiempo no cambia. Eso tiene un costo constante: O(1).
+Después, arranca un bucle for que agarra cada número y lo multiplica por 2. Como da n vueltas (una por cada elemento), le asigno un costo lineal: O(n).
+Por último, hay otro for independiente que vuelve a recorrer el arreglo, esta vez para imprimir. De nuevo, da 'n' vueltas, así que suma otro O(n).
+Como los bloques están uno abajo del otro, apliqué la regla de la suma. Junté todo y me quedó la ecuación: T(n) = O(1) + O(n) + O(n)
+Para sacar el resultado final, en complejidad, las constantes (el 2 y el 1) se desprecian . Si el arreglo tiene un millón de elementos, hacer dos millones de operaciones en vez de un millón no te cambia de categoría; el programa sigue creciendo a un ritmo lineal. Así que concluí que la complejidad posta es O(n).
+
+Ejercicio 5: Como hay un bucle dentro del otro, hay que multiplicar. Por cada fila que recorre ,  tiene que revisar todas sus columnas . Así que apliqué la regla del producto:
+O(n) * O(n) = O(n^2).
+
+Y para analizar el peor caso, el programa empieza a buscar desde arriba a la izquierda y el único número par esté escondido justo en la última celda de abajo a la derecha o que no haya ningún número par en toda la matriz
+
+En cualquiera de esos dos casos, el algoritmo revisa absolutamente todas las posiciones. Si la matriz es chica (10 x 10), revisa 100 lugares. Pero si es grande (1000 x 1000), se va a 1.000.000 de operaciones. Al ver que los pasos se disparan al cuadrado de esa forma, comprobé que el costo final del peor caso es O(n^2).
+
+Ejercicio 6:  Primero está el Bloque A. Es un for simple que pasa por el arreglo una sola vez para imprimir los datos. Como hace n iteraciones (una por cada dato),  el costo es lineal, o sea, O(n).
+
+Después pasé al Bloque B y vi que tenía bucles anidados. Era un for dentro de otro for, los dos yendo hasta n. Si por cada vuelta que da el ciclo de afuera, el ciclo de dentro da n vueltas más, terminás haciendo 'n' por 'n' operaciones. Entonces, es cuadrático total, O(n^2).
+
+Para sacar la complejidad total del método, hay que juntar las dos partes usando la regla de la suma. Me quedó esta cuenta:
+T(n) = O(n) + O(n^2)
+
+Si n vale 1.000, la parte lineal te suma 1.000 operaciones, pero la parte al cuadrado aporta 1.000.000. Y si n llega a ser un millón de datos, la parte al cuadrado se va a un billón. Es tan inmensa la diferencia que la parte lineal (O(n)) no interfiere en nada.
+
+Así que directamente apliqué la regla, desprecie la parte lineal porque pasa a ser irrelevante frente a la parte cuadrática, y concluímos que el costo final de todo el algoritmo es O(n^2).
+
+Ejercicio 7: La búsqueda binaria pertenece a o(log n) porque en cada paso divide el conjunto de datos por la mitad. Luego de k divisiones quedan n/2^k elementos, y Cuando el tamaño llega a 1 termina
+
+Ejercicio 8:
+recorrer Conjunto A = o(n)
+comprobar(n) en conjunto B= o(n)
+ 
+B.Pertenece(x) se ejecuta una vez por cada elemento de A
+o(n) * o(n) = o(n²)
+si es True: hace agregar(),
+agregar tiene como validación interna  un Pertenece = o(n)
+agregar esta dentro de recorrer conjunto así que es multiplicación
+o(n) * o(n) = o(n²)
+complejidad total o(n²) + o(n²) = o(2n²) → Se simplifica y queda : o(n²)
+
+Ejercicio 9:  Es O(K) porque Desacolar() revisa las subcolas de prioridad hasta encontrar la primera que no esté vacía. No depende de la cantidad total de elementos (n), sino de la cantidad de prioridades (K).
+
+Ejemplo:
+Prioridad 1 → [7,3,2]
+Prioridad 2 → [5,9]
+Prioridad 3 → [1,8,6]
+Prioridad 4 → [4]
+
+K = 4
+n = 9
+Aunque existan 9 elementos, Desacolar() no recorre esos 9 elementos.
+Solo verifica:
+Prioridad 1 vacía?
+Prioridad 2 vacía?
+etc...
+En el peor caso revisará las K prioridades, por eso la complejidad es O(K).
+
+Ejercicio 10: La función de Fibonacci recursiva presenta una complejidad exponencial, ya que cada llamada genera dos nuevas llamadas recursivas:
+f(n)
+├── f(n-1)
+└── f(n-2)
+A medida que n crece, la cantidad de llamadas aumenta rápidamente porque muchas se repiten varias veces. Por ejemplo, para calcular fibonacci(5) se vuelven a calcular valores como fibonacci(3) y fibonacci(2) múltiples veces.
+Esto provoca un crecimiento exponencial del árbol de recursión.
+Por lo tanto, la familia de complejidad temporal es aproximadamente: O(2^n) y pertenece a la jerarquía de complejidad exponencial.
