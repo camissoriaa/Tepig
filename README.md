@@ -69,14 +69,17 @@ Analizamos y comparamos **tres estrategias distintas** para implementar una pila
 
 ---
 
-## Clase 26/03
+## 📅 Clase 26/03
 
 ### Actividad: Bloque 1 — Ejercicios con TDA Pila
 
 En el día de la fecha trabajamos con el TDA de Pila integrado directamente en el código. Se plantearon situaciones reales para analizar y volcar en código, utilizando herramientas explicadas en la primera parte de la clase, en la cual se introdujo la mejor estrategia para la resolución de dichos ejercicios. Se nos plantearon diferentes bloques de ejercicios, pero comenzamos esta actividad con el bloque número 1.
 
 --- 
-## Clase 07/05
+## 📅 Clase 07/05
 
 Actividad de complejidad:
-En el dia de la fecha trabajamos con COMPLEJIDAD. 
+En el dia de la fecha realizamos un análisis de complejidad temporal de los distintos TDA (Tipos de Datos Abstractos) vistos en la materia, comparando:
+- Implementación estática (con arreglos)
+- Implementación dinámica (con nodos/listas enlazadas)
+y anotando cuánto tarda cada método usando notación Big-O.
